@@ -10,7 +10,7 @@ parameters:
   context:
     description: circleci context for all jobs
     type: string
-    default: twdps-core-labs-team
+    default: cohorts
   executor-image:
     description: image to use for local jobs
     type: string
