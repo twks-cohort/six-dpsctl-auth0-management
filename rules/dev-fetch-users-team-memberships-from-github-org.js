@@ -12,7 +12,7 @@ function (user, context, callback) {
         "Authorization": "token "+access_token,
         // Remember the Application name registered in github?
         // use it to set User-Agent or request will fail
-        "User-Agent": "dev-dpsctl",
+        "User-Agent": "six-svc-auth0-nonprod",
       }
     }, function(err, res, data){
         user.err = err;
